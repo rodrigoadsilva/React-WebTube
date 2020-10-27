@@ -3,7 +3,7 @@ import React from 'react'
 function VideoPlayer(){
     return (
         <div className="video-player">
-            <h4>VideoPlayer Component</h4>
+            <h1>VideoPlayer Component</h1>
         </div>
     )
 }
