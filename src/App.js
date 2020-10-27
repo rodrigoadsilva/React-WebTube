@@ -6,12 +6,10 @@ import VideoPlayer from './components/VideoPlayer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <SearchBar/>
-        <VideoList/>
-        <VideoPlayer/>
-      </header>
+    <div className="container">
+      <SearchBar />
+      <VideoList />
+      <VideoPlayer />
     </div>
   );
 }
