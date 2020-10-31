@@ -33,7 +33,7 @@ export const searchVideo = (term) => {
         dispatch(startSearchVideo());
         youtubeSearch(API_KEY, {q: term})
             .then((data) => dispatch(searchVideoSuccess(data.items)))
-            .catch(searchVideoFail());
+            .catch(() => dispatch(searchVideoFail()));
     }
 }
 
